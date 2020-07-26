@@ -32,6 +32,10 @@
     "category": {
       "model": "category",
       "via": "articles"
+    },
+    "page": {
+      "via": "articles",
+      "model": "page"
     }
   }
 }
