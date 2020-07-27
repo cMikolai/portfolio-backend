@@ -10,7 +10,7 @@
       "options": {
         "ssl": true,
         "srv": false,
-        "authenticationDatabase": ''
+        "authenticationDatabase": ""
       }
     }
   }
