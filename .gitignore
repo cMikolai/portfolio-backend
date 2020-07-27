@@ -115,4 +115,5 @@ build
 
 
 package-lock.json
+yarn.lock
 # /config/database.js
