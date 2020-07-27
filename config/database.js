@@ -2,17 +2,14 @@ module.exports = ({ env }) => ({
   defaultConnection: 'default',
   connections: {
     default: {
-      connector: 'bookshelf',
+      connector: 'mongoose',
       settings: {
-        client: 'postgres',
-        host: env('DATABASE_HOST', '127.0.0.1'),
-        port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'strapi_portfolio'),
-        username: env('DATABASE_USERNAME', 'db_user'),
-        password: env('DATABASE_PASSWORD', 'password'),
-        ssl: env.bool('DATABASE_SSL', false),
+        client: 'mongo',
+        uri: "mongodb://admin-christin:Gf6-G99-Ffa@christinmikolai-portfol-shard-00-00.yigez.mongodb.net:27017,christinmikolai-portfol-shard-00-01.yigez.mongodb.net:27017,christinmikolai-portfol-shard-00-02.yigez.mongodb.net:27017/christinmikolai-portfolio?ssl=true&replicaSet=atlas-t9gg44-shard-0&authSource=admin&retryWrites=true&w=majority",
       },
-      options: {}
+      options: {
+        ssl: true
+      }
     },
   },
 });
