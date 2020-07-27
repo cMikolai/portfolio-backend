@@ -6,7 +6,6 @@
       "settings": {
         "client": "mongo",
         "uri": "${process.env.MONGODB_URI}",
-        "database": "christinmikolai-portfolio"
       },
       "options": {
         "ssl": true
