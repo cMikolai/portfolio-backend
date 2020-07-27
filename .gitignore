@@ -115,4 +115,5 @@ build
 
 
 package-lock.json
-# /config/database.js
+/config/database.js
+plugins.js
