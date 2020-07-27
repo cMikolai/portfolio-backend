@@ -5,7 +5,7 @@
       "connector": "mongoose",
       "settings": {
         "client": "mongo",
-        "uri": "${process.env.URI}",
+        "uri": "${process.env.MONGODB_URI}",
       },
       "options": {
         "ssl": true
