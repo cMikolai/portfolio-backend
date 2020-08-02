@@ -1,16 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "tests",
+  "collectionName": "tags",
   "info": {
-    "name": "Test"
+    "name": "Tag"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "test": {
+    "name": {
       "type": "string"
+    },
+    "articles": {
+      "collection": "article",
+      "via": "tags"
     }
   }
 }

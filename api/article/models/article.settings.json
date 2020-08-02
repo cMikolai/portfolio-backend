@@ -33,9 +33,10 @@
       "model": "category",
       "via": "articles"
     },
-    "page": {
+    "tags": {
       "via": "articles",
-      "model": "page"
+      "collection": "tags",
+      "dominant": true
     }
   }
 }
