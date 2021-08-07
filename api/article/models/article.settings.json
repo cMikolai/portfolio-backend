@@ -15,7 +15,7 @@
     "content": {
       "type": "richtext"
     },
-    "published_at": {
+    "published_date_at": {
       "type": "datetime"
     },
     "image": {
